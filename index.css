@@ -45,13 +45,11 @@ blockquote, q {
 
 html{
     font-size:62.5%;
+    font-family:'Roboto Mono';
 }
 body{
     font-size:1.6rem;
     line-height:1.5;
-}
-h1{
-    font-family: 'Chelsey market', cursive; /* comeback to this*/
 }
 section{
     padding:4% 0;
@@ -61,6 +59,8 @@ section{
 
 nav{
     padding:2% 0;
+    border: white;
+    margin: white;
 }
 nav a{
     display:inline-block;
@@ -70,6 +70,7 @@ nav a{
     text-align:center;
     color: #fff;
     text-decoration:none;
+    font-weight: 800;
 }
 .orange{
     background-color:#FF764E;
@@ -80,8 +81,15 @@ nav a{
     margin:0 24%;
 }
 .yellow{
-    background-color:# ;
+    background-color:#FFCD69;
     margin-right:10%;
+}
+
+
+
+h1{
+    font-family: 'Chelsea Market', cursive; /* comeback to this I think I fixed this correctly*/
+    font-size: 4.5rem;
 }
 .top{
     position:relative;
@@ -102,4 +110,43 @@ nav a{
     line-height:2;
     position:absolute; /* make parent position relative */
     bottom:20%;
+    font-weight: 800;
+}
+
+/* Second section, flare text*/
+
+.flare{
+    background-color:#DDB9A3;
+    color:white;
+    font-weight: 800;
+}
+
+
+
+
+.TwoBoxes{
+    width: 15%;
+    text-align:center;
+    margin:auto;
+    padding: 2%;
+    border: 2%;
+}
+.TwoBoxes img{
+    width:60%;
+    padding: 10%;
+    border:2%;
+    margin: auto;
+}
+.TwoBoxes span{
+    font-weight:bold;
+}
+
+/* bacgroundImage section */
+.backgroundImage{
+    width:98%;
+}
+
+/*footer section*/
+footer {
+    background-color:#F9E7DC;
 }
