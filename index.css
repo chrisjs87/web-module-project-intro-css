@@ -128,30 +128,40 @@ h1{
     background-color:#DDB9A3;
     color:white;
     font-weight: 800;
-    margin:2%;
-    /* margin-top:0; */
-    padding:0;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top:5%;
+    padding: 2%;
     border:0;
-    
+}
+.flare p{
+    padding: 1%;
 }
 
 
 
-
 .TwoBoxes{
-    width: 15%;
+    width: 35%;
     text-align:center;
     /* margin:auto; */
     margin-left:auto;
     margin-right:auto;
     padding: 2%;
     border: 2%;
+    
 }
 .TwoBoxes img{
-    width:60%;
-    padding: 10%;
+    width:50%;
+    /* padding: 10%; */
+    
     border:2%;
-    margin: auto;
+    margin: 0 auto;
+}
+.TwoBoxes p{
+    height: auto;
+    padding: 0px;
+    border:0px;
+    margin: 0px;
 }
 .TwoBoxes span{
     font-weight:bold;
@@ -159,11 +169,20 @@ h1{
 
 /* backgroundImage section */
 .backgroundImage{
-    width:cover;
-    margin:auto;
+    /* background-size:cover; */
+    /* width:cover;
+    margin:auto; */
+    margin: 0 auto;
+    width:100%;
+    padding: 0px;
+    border:0px;
+    margin: 0px;
 }
 
 /*footer section*/
 footer {
     background-color:#F9E7DC;
+    padding: 0px;
+    border:0px;
+    margin: 0px;
 }
