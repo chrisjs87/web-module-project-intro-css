@@ -38,7 +38,8 @@ blockquote, q {
     *{
         box-sizing:border-box;
         max-width:100%;
-        border:1px solid grey;
+        /* border:1px solid grey;  */  
+        /*you can comment this out! */
     }
 
 /*general styles*/
@@ -59,8 +60,6 @@ section{
 
 nav{
     padding:2% 0;
-    border: white;
-    margin: white;
 }
 nav a{
     display:inline-block;
@@ -88,9 +87,8 @@ nav a{
 /* top section */
 
 h1{
-    font-family: 'Chelsea Market', cursive; /* comeback to this I think I fixed this correctly*/
+    font-family: 'Chelsea Market', cursive;
     font-size: 4.5rem;
-    
 }
 .top{
     position:relative;
@@ -130,7 +128,7 @@ h1{
     background-color:#DDB9A3;
     color:white;
     font-weight: 800;
-    margin:1% 2%;
+    margin:2%;
     /* margin-top:0; */
     padding:0;
     border:0;
@@ -143,7 +141,9 @@ h1{
 .TwoBoxes{
     width: 15%;
     text-align:center;
-    margin:auto;
+    /* margin:auto; */
+    margin-left:auto;
+    margin-right:auto;
     padding: 2%;
     border: 2%;
 }
@@ -159,7 +159,8 @@ h1{
 
 /* backgroundImage section */
 .backgroundImage{
-    width:98%;
+    width:cover;
+    margin:auto;
 }
 
 /*footer section*/
